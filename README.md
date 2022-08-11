@@ -7,5 +7,5 @@ This repo shows work that concerns image classification of different plant leafs
 the modeling part has been done in a kaggle notebook here : https://www.kaggle.com/code/majdikarim/alexnet-vgg16-mobilenetv2-inceptionv3-benchmarking
 You can download the model in .h5 format from the last notebook cell, it's a model based on inceptionv3.
 
-the script load_model.py can be ran as long as the .h5 file and .py file are hosted locally in the same machine (in an offline way). the script will ask for the path of the image file to process. It will load the model use it to make a forward pass on the image after resizeing it and produce the plant specie and health status.
+the script load_model.py can be ran as long as the .h5 file and .py file are hosted locally in the same machine (in an offline way). the script will ask for the path of the image file to process, it should also occur locally. It will load the model use it to make a forward pass on the image after resizing it and produce the plant specie and health status.
 
